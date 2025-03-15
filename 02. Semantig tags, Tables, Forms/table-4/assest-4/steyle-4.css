@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.section {
+    writing-mode: vertical-rl;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subsection {
+    text-align: left;
+    padding-left: 10px;
+}

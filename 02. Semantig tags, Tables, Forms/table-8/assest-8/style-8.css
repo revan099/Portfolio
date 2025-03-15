@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.column {
+    text-align: left;
+}
+
+h3 {
+    color: blue;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: red;
+    font-weight: bold;
+}

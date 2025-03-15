@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/foto4.webp') no-repeat center center/cover; 
+    padding: 20px;
+}
+
+
+.quote-box {
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(10px); 
+    border-radius: 3px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); 
+    padding: 25px;
+    max-width: 500px;
+    text-align: center;
+    color: black;
+    
+}
+
+
+
+
+

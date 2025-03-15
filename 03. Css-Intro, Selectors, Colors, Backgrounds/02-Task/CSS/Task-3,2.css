@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: yellow;
+    text-align: center;
+    line-height: 1.6;
+    background-image: url('../Img/01f.webp');
+   justify-content:center;
+    align-content: center;   
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-attachment: scroll;
+}
+.footer{
+    color:black;
+}
+.topic{
+    color: #ff4081;
+}

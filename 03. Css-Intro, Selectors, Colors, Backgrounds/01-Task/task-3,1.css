@@ -1,0 +1,101 @@
+/* sehifenin rengini ve metinin rengini boz edir */
+body{
+    font-family: red,  sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+/* header olan elementin hedefleyir */
+header{
+    background-color:blue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+/* h1 basliqinin rengini deyisir */
+h1{
+    color:yellow;
+    
+}
+/* metinin paraqraflarlnln rengini deyisir,metini italic edir,merinin olculerini deyisir */
+p.description{ 
+    color: red;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+/* iceriden ve usten bosluqlari deyisir,fonu ag edir */
+.content{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+} 
+/* vurgulanan elementin fonunu deyisir, metinleri qalin edir,daxili bosluqunu deyisir */
+
+.higlight{
+    background-color: green;
+    padding: 5px;
+    font-weight:bold ;
+
+}
+/* duymenin fonunu qirmisi edir ve duymeninin rengini ag edir */
+.button{
+    background-color: red;
+    color: white;
+    
+}
+/* metinleri ortalayir ve footer metn rengini ag edir */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* paragraf siriftini,setir araligini deyisir */
+p{
+font-size: 14px;
+line-height: 1;
+margin: 10px;    
+}
+/* content siftine daxil olan h3 yazilarlni mavi edir */
+.content h3{color: #003366;
+
+}
+/* butun elemetlere tetbiq edilir */
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer p{font-size: 12px;
+color: grey;}
+nav{
+    background-color: purple; /* Naviqasiya menyusunun fonunu bənövşəyi edir. */
+    padding: 15px; /* İçəridən boşluğu 15px edir. */
+}
+
+ul{
+    list-style-type: none; /* Siyahı işarələrini (bullet points) ləğv edir. */
+}
+
+a{
+    text-decoration: none; /* Linklərin altını xətdən təmizləyir. */
+    color: blue; /* Link mətnlərini mavi edir. */
+}
+
+section{
+    padding: 20px; /* Bölmənin daxili boşluğunu 20px edir. */
+    margin-bottom: 10px; /* Aşağıdan boşluğu 10px edir. */
+}
+
+input[type="text"]{
+    border: 1px solid #ccc; /* Mətn qutusunun çərçivəsini boz edir. */
+    padding: 5px; /* İçəridən boşluğu 5px edir. */
+}
+
+blockquote{
+    font-style: italic; /* Sitatları italik edir. */
+    border-left: 3px solid #ccc; /* Sitatın solunda xətt əlavə edir. */
+    padding-left: 10px; /* Xəttdən mətnə boşluq qoyur. */
+}
