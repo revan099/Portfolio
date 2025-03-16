@@ -1,0 +1,58 @@
+
+body {
+    font-family: serif;
+    text-align: center;
+    background-color: #f5f0e6;
+    padding: 50px;
+}
+
+.container {
+    background: url('img/kg.webp') no-repeat center center/cover; /* Əgər fon şəkli lazımdırsa */
+    padding: 50px;
+    border-radius: 10px;
+}
+
+
+.small-title {
+    font-size: 30px;
+    color: #c3955b;
+    letter-spacing: 2px;
+}
+
+
+.main-title {
+    font-size: 100px;
+    font-family: "Dancing Script", cursive; 
+    font-weight: bold;
+    color: black;
+}
+
+
+.subtitle {
+    font-size: 30px;
+    color: #c3955b;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+
+.description {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+.crafted {
+    font-size: 22px;
+    font-style: italic;
+    color: #c3955b;
+    margin-top: 20px;
+}
+
+.footer {
+    font-size: 18px;
+    color: #7a6752;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}

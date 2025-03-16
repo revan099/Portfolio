@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #f79341; /* Narıncı fon */
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: black;
+    margin: 0;
+}
+
+/* Sarı Bölmə */
+.yellow-section {
+    display: flex;
+    background-color: #f4b400; /* Sarı fon */
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.text-box {
+    width: 45%;
+    color: black;
+    font-size: 16px;
+}
+
+/* Mavi Qutular Bölməsi */
+.blue-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    gap: 5px;
+   
+  
+}
+
+.blue-box {
+   
+    background-color: #207cca;
+    color: white;
+    padding: 20px;
+    text-align: center;
+   
+    border: 5px solid black;
+   
+}
+
