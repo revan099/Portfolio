@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.banner {
+    background: url('banner.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+}
+
+.banner .btn {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.categories {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0;
+/* display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,auto); */
+}
+.cate{
+    margin:10px ;
+}
+.cate img{
+    border-radius:10px ;
+
+}
+.category {
+    margin: 10px;
+   
+}
+
+.category img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.category h3 {
+    margin-top: 10px;
+}
+
+
+.products {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f5f5f5;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.product .btn {
+    display: block;
+    background: orange;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 668px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .categories {
+        flex-direction: column;
+    }
+    
+    .product-list {
+        flex-direction: column;
+    }
+}
