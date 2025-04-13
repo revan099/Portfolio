@@ -1,0 +1,33 @@
+body{
+    display:flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.cal{
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+
+
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.btn3{
+    display: flex;
+    justify-content: center;
+}
+
+.netice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

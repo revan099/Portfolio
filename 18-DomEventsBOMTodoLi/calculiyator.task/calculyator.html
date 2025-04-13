@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="/calculiyator.task/assest/style.css/calculyator.css">
+</head>
+<body>
+    <div class="cal">
+        <div class="btn1">
+    <input id="num1" type="number" placeholder="1-ci eded">
+    <input id="num2" type="number" placeholder="2-ci eded">
+</div>
+    <br>
+    <br>
+    <div class="btn2">
+    <button onclick="setOperation('add')">topla</button>
+    <button onclick="setOperation('subtract')">cix</button>
+    <button onclick="setOperation('multiply')">vur</button>
+    <button onclick="setOperation('divide')">bol</button>
+</div>
+    <br><br>
+    <div class="btn3">
+    <button onclick="calculate()">hesabla</button>
+</div>
+ 
+ <div class="netice">
+    <br>
+    <p id="result" >netice:</p>
+</div>
+</div>
+
+    <script src="./assest/script.js/calculyator.js"></script>
+</body>
+</html>
