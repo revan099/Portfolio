@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assest/register/register.css">
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h2>Qeydiyyat</h2>
+    <form id="registerForm">
+      <input type="text" id="regUsername" placeholder="isdifadeci adi" required />
+      <input type="email" id="regEmail" placeholder="email" required />
+      <div class="password-check">
+        <input type="password" id="regPassword" placeholder="sifre" required />
+        <span id="passwordStrength" class="strength-icon">✖</span>
+      </div>
+      <input type="password" id="regConfirmPassword" placeholder="sifreni tesdiqle" required />
+      <button type="submit">qeydiyyat et</button>
+    </form>
+  </div>
+<script src="./assest/register/register.js"></script>
+</body>
+</html>
