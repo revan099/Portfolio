@@ -1,0 +1,114 @@
+.navbar {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/");
+}
+
+.navbar-nav li a {
+  font-size: 17px;
+  color: white;
+}
+
+.navbar-nav li a:hover {
+  color: gold;
+  transition: 0.3s;
+}
+
+.hero .container-fluid {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero .container-fluid h2 {
+  font-size: 40px;
+}
+
+.hero .container-fluid h1 {
+  margin-top: 20px;
+  font-size: 90px;
+}
+
+.hero .container-fluid button {
+  width: 250px;
+  height: 68px;
+  margin-top: 20px;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.services_center {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.services_center h2 {
+  font-size: 50px;
+}
+
+.services_center h4 {
+  margin-top: 20px;
+}
+
+.card {
+  height: 300px;
+  margin-top: 70px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card i {
+  margin-top: 20px;
+  font-size: 70px;
+  color: gold;
+}
+
+.portfolio_container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.portfolio-item {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.services_center .container h2 {
+  font-size: 50px;
+}
+
+.services_center .container h4 {
+  font-size: 20px;
+}
+
+
+.page-section {
+  padding: 6rem 0;
+}
+
+.page-section h2.section-heading,
+.page-section .section-heading.h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.page-section h3.section-subheading,
+.page-section .section-subheading.h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  /* font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  margin-bottom: 4rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
